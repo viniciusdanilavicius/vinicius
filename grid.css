@@ -1,0 +1,35 @@
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(146, 83, 204);
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .gridimg{
+        background-color: rgba(255, 137, 172, 0.377);
+    }
+    .Imagem{
+        border-top: 5px groove rgb(169, 21, 206);
+        border-bottom: 5px groove rgb(226, 91, 219);
+        border-left: 5px groove rgb(219, 69, 174);
+        border-right: 5px groove rgb(216, 45, 231);
+        width: 180px!important;
+        height: 160px!important;
+    }
+    .titulo{
+        font-size: 30px;
+        color: rgb(2, 46, 46);
+    }
+}
